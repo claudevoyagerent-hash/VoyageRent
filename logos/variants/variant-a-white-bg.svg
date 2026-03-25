@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- VARIANT A WHITE BG: For light backgrounds, print on white paper -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 500" width="1800" height="500">
+  <defs>
+    <linearGradient id="aw_flameGrad" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#E8312A"/>
+      <stop offset="60%" stop-color="#C8102E"/>
+      <stop offset="100%" stop-color="#8B1A1A"/>
+    </linearGradient>
+    <linearGradient id="aw_navyGrad" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1F3460"/>
+      <stop offset="100%" stop-color="#12213D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- White background -->
+  <rect width="1800" height="500" fill="#FFFFFF"/>
+
+  <!-- Surprice S-icon -->
+  <g transform="translate(60, 80) scale(0.72)">
+    <path d="M195,15 C225,5 268,0 292,28 C316,56 298,95 260,118 C238,132 205,140 183,155 C165,167 158,180 165,192 L125,168 C112,142 130,118 160,98 C190,78 222,64 242,48 C262,32 255,14 232,12 Z" fill="url(#aw_flameGrad)"/>
+    <path d="M215,35 C235,26 262,24 274,40 C286,56 274,82 252,98 L240,90 C256,78 264,60 256,46 C248,36 230,34 215,39 Z" fill="white" opacity="0.45"/>
+    <path d="M165,192 C142,210 108,232 80,260 C52,288 58,322 86,340 C114,358 158,352 198,335 C238,318 266,290 278,268 C290,246 278,228 256,222 L268,200 C300,210 318,235 306,266 C294,298 262,330 218,352 C174,374 120,380 76,358 C32,336 20,296 48,262 C76,228 118,205 150,186 Z" fill="url(#aw_navyGrad)"/>
+    <path d="M120,278 C138,258 170,232 198,218 L192,232 C170,244 148,264 134,288 C120,312 126,328 146,338 L132,348 C108,336 104,308 120,278 Z" fill="white" opacity="0.3"/>
+  </g>
+
+  <!-- "Sur" in red -->
+  <text font-family="'Nunito', 'Varela Round', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="145" fill="#C8102E" x="285" y="310" letter-spacing="-3">Sur</text>
+  <!-- "price" in navy -->
+  <text font-family="'Nunito', 'Varela Round', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="145" fill="#1B2A4A" x="488" y="310" letter-spacing="-3">price</text>
+  <!-- Tagline -->
+  <text font-family="'Nunito', 'Varela Round', sans-serif" font-weight="600" font-size="34" fill="rgba(27,42,74,0.60)" x="290" y="370" letter-spacing="2.5">Empowering mobility</text>
+
+  <!-- Divider -->
+  <line x1="1000" y1="100" x2="1000" y2="400" stroke="rgba(27,42,74,0.12)" stroke-width="1.5"/>
+
+  <!-- "VOYAGE" in dark orange / burnt orange for white bg -->
+  <text font-family="'Nunito', 'Montserrat', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="135" fill="#E06B10" x="1050" y="280" letter-spacing="3">VOYAGE</text>
+  <!-- "RENT" -->
+  <text font-family="'Nunito', 'Montserrat', 'Arial Rounded MT Bold', sans-serif" font-weight="700" font-size="42" fill="rgba(27,42,74,0.60)" x="1055" y="340" letter-spacing="8">RENT</text>
+  <line x1="1050" y1="355" x2="1260" y2="355" stroke="#E06B10" stroke-width="2.5" opacity="0.4"/>
+  <text font-family="'Nunito', 'Montserrat', sans-serif" font-weight="500" font-size="22" fill="rgba(27,42,74,0.35)" x="1055" y="390" letter-spacing="5">CAR RENTAL PARTNER</text>
+</svg>

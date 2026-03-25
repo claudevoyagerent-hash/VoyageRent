@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- VARIANT C: MERCH / T-SHIRT SIMPLIFIED VERSION -->
+<!-- Clean, compact, no icon, works on black fabric -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="c_transBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C8102E" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#F47920" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Black background -->
+  <rect width="1200" height="300" fill="#0C0C0F"/>
+
+  <!-- ====== SURPRICE TEXT ====== -->
+  <!-- "Sur" in red -->
+  <text font-family="'Nunito', 'Varela Round', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="110" fill="#C8102E" x="40" y="175" letter-spacing="-2">Sur</text>
+  <!-- "price" in white -->
+  <text font-family="'Nunito', 'Varela Round', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="110" fill="#FFFFFF" x="195" y="175" letter-spacing="-2">price</text>
+
+  <!-- ====== SEPARATOR ====== -->
+  <!-- Gradient transition dot or thin line -->
+  <rect x="615" y="85" width="2.5" height="130" rx="1.25" fill="url(#c_transBar)"/>
+
+  <!-- ====== VOYAGE ====== -->
+  <text font-family="'Nunito', 'Montserrat', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="110" fill="#F47920" x="650" y="175" letter-spacing="2">VOYAGE</text>
+
+  <!-- Bottom line: combined tagline -->
+  <text font-family="'Nunito', 'Montserrat', sans-serif" font-weight="600" font-size="22" fill="rgba(255,255,255,0.40)" x="40" y="240" letter-spacing="3">EMPOWERING MOBILITY</text>
+  <!-- Small "x" symbol -->
+  <text font-family="'Nunito', sans-serif" font-weight="400" font-size="18" fill="rgba(255,255,255,0.25)" x="600" y="240" text-anchor="middle">&#x2022;</text>
+  <text font-family="'Nunito', 'Montserrat', sans-serif" font-weight="600" font-size="22" fill="rgba(255,255,255,0.40)" x="650" y="240" letter-spacing="3">CAR RENTAL</text>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COMPACT VERSION: For small applications, badges, app icons -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250">
+  <defs>
+    <linearGradient id="co_trans" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C8102E" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#F47920" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="250" fill="#0C0C0F"/>
+
+  <!-- Surprice compact -->
+  <text font-family="'Nunito', 'Varela Round', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="72" fill="#C8102E" x="30" y="135" letter-spacing="-1">Sur</text>
+  <text font-family="'Nunito', 'Varela Round', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="72" fill="#FFFFFF" x="132" y="135" letter-spacing="-1">price</text>
+
+  <!-- Tiny separator -->
+  <rect x="395" y="70" width="2" height="90" rx="1" fill="url(#co_trans)"/>
+
+  <!-- VOYAGE -->
+  <text font-family="'Nunito', 'Montserrat', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="72" fill="#F47920" x="420" y="135" letter-spacing="1">VOYAGE</text>
+
+  <!-- Bottom line -->
+  <text font-family="'Nunito', sans-serif" font-weight="500" font-size="16" fill="rgba(255,255,255,0.35)" x="30" y="195" letter-spacing="3">EMPOWERING MOBILITY</text>
+  <text font-family="'Nunito', sans-serif" font-weight="500" font-size="16" fill="rgba(255,255,255,0.35)" x="420" y="195" letter-spacing="3">CAR RENTAL</text>
+</svg>

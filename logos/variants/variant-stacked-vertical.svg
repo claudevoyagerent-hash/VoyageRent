@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- STACKED VERTICAL: For signage panels, desk fronts, tall applications -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 900" width="700" height="900">
+  <defs>
+    <linearGradient id="sv_flameGrad" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#E8312A"/>
+      <stop offset="60%" stop-color="#C8102E"/>
+      <stop offset="100%" stop-color="#8B1A1A"/>
+    </linearGradient>
+    <linearGradient id="sv_navyGrad" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1F3460"/>
+      <stop offset="100%" stop-color="#12213D"/>
+    </linearGradient>
+    <linearGradient id="sv_divider" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="20%" stop-color="#C8102E" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#E05520" stop-opacity="0.4"/>
+      <stop offset="80%" stop-color="#F47920" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="700" height="900" fill="#0C0C0F"/>
+
+  <!-- Surprice icon centered -->
+  <g transform="translate(230, 30) scale(0.55)">
+    <path d="M195,15 C225,5 268,0 292,28 C316,56 298,95 260,118 C238,132 205,140 183,155 C165,167 158,180 165,192 L125,168 C112,142 130,118 160,98 C190,78 222,64 242,48 C262,32 255,14 232,12 Z" fill="url(#sv_flameGrad)"/>
+    <path d="M215,35 C235,26 262,24 274,40 C286,56 274,82 252,98 L240,90 C256,78 264,60 256,46 C248,36 230,34 215,39 Z" fill="white" opacity="0.45"/>
+    <path d="M165,192 C142,210 108,232 80,260 C52,288 58,322 86,340 C114,358 158,352 198,335 C238,318 266,290 278,268 C290,246 278,228 256,222 L268,200 C300,210 318,235 306,266 C294,298 262,330 218,352 C174,374 120,380 76,358 C32,336 20,296 48,262 C76,228 118,205 150,186 Z" fill="url(#sv_navyGrad)"/>
+    <path d="M120,278 C138,258 170,232 198,218 L192,232 C170,244 148,264 134,288 C120,312 126,328 146,338 L132,348 C108,336 104,308 120,278 Z" fill="white" opacity="0.3"/>
+  </g>
+
+  <!-- Surprice text centered -->
+  <text font-family="'Nunito', 'Varela Round', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="120" fill="#C8102E" x="350" y="360" text-anchor="middle" letter-spacing="-2">
+    <tspan fill="#C8102E">Sur</tspan><tspan fill="#FFFFFF">price</tspan>
+  </text>
+  <text font-family="'Nunito', 'Varela Round', sans-serif" font-weight="600" font-size="28" fill="rgba(255,255,255,0.45)" x="350" y="410" text-anchor="middle" letter-spacing="2">Empowering mobility</text>
+
+  <!-- Horizontal gradient divider -->
+  <rect x="60" y="460" width="580" height="2" fill="url(#sv_divider)"/>
+
+  <!-- VOYAGE centered -->
+  <text font-family="'Nunito', 'Montserrat', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="130" fill="#F47920" x="350" y="590" text-anchor="middle" letter-spacing="4">VOYAGE</text>
+  <!-- RENT -->
+  <text font-family="'Nunito', 'Montserrat', 'Arial Rounded MT Bold', sans-serif" font-weight="700" font-size="50" fill="rgba(255,255,255,0.55)" x="350" y="660" text-anchor="middle" letter-spacing="10">RENT</text>
+  <!-- Orange accent -->
+  <line x1="250" y1="685" x2="450" y2="685" stroke="#F47920" stroke-width="2" opacity="0.4"/>
+  <!-- Bottom descriptor -->
+  <text font-family="'Nunito', 'Montserrat', sans-serif" font-weight="500" font-size="20" fill="rgba(255,255,255,0.30)" x="350" y="720" text-anchor="middle" letter-spacing="6">CAR RENTAL PARTNER</text>
+</svg>
