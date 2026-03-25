@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="iconGradTop" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#D42B2B"/>
+      <stop offset="100%" stop-color="#7A1A1A"/>
+    </linearGradient>
+    <linearGradient id="iconGradBot" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#1B2A4A"/>
+      <stop offset="100%" stop-color="#162240"/>
+    </linearGradient>
+  </defs>
+
+  <!-- === SURPRICE ICON (S-shape) === -->
+  <g transform="translate(30, 25) scale(0.55)">
+    <!-- Top red flame/swoosh -->
+    <path d="M200,20 C230,10 270,5 290,30 C310,55 295,90 260,110 C240,122 210,128 190,140 C175,150 170,158 175,165 L140,145 C130,125 145,105 170,88 C195,72 225,60 240,48 C255,36 250,22 230,20 Z" fill="url(#iconGradTop)"/>
+    <!-- White highlight on top swoosh -->
+    <path d="M210,38 C230,30 255,28 265,42 C275,56 265,78 245,92 L235,85 C250,73 258,58 250,46 C242,38 225,38 210,42 Z" fill="white" opacity="0.5"/>
+    <!-- Bottom navy swoosh -->
+    <path d="M175,165 C155,180 120,200 95,225 C70,250 75,280 100,295 C125,310 165,305 200,290 C235,275 260,250 270,230 C280,210 270,195 250,190 L260,170 C290,178 305,200 295,228 C285,256 255,285 215,305 C175,325 125,330 85,310 C45,290 35,255 60,225 C85,195 125,175 155,158 Z" fill="url(#iconGradBot)"/>
+    <!-- White highlight on bottom swoosh -->
+    <path d="M130,240 C145,222 175,200 200,188 L195,200 C175,210 155,228 142,248 C130,268 135,282 152,290 L140,298 C118,288 115,265 130,240 Z" fill="white" opacity="0.4"/>
+  </g>
+
+  <!-- === SURPRICE TEXT === -->
+  <g transform="translate(195, 75)">
+    <!-- "Sur" in red -->
+    <text font-family="'Nunito', 'Rounded Mplus 1c', 'Varela Round', Arial Rounded MT Bold, Arial, sans-serif" font-weight="800" font-size="120" fill="#C8102E" letter-spacing="-2">
+      <tspan>Sur</tspan>
+    </text>
+    <!-- "price" in navy -->
+    <text font-family="'Nunito', 'Rounded Mplus 1c', 'Varela Round', Arial Rounded MT Bold, Arial, sans-serif" font-weight="800" font-size="120" fill="#1B2A4A" letter-spacing="-2" x="185">
+      <tspan>price</tspan>
+    </text>
+  </g>
+
+  <!-- "Empowering mobility" tagline -->
+  <text font-family="'Nunito', 'Rounded Mplus 1c', 'Varela Round', Arial Rounded MT Bold, Arial, sans-serif" font-weight="700" font-size="38" fill="#1B2A4A" x="210" y="228" letter-spacing="1">Empowering mobility</text>
+
+  <!-- === VERTICAL DIVIDER === -->
+  <line x1="680" y1="55" x2="680" y2="245" stroke="#C8102E" stroke-width="3" opacity="0.6"/>
+
+  <!-- === VOYAGE RENT TEXT === -->
+  <g transform="translate(710, 75)">
+    <!-- "Voyage" in navy -->
+    <text font-family="'Nunito', 'Rounded Mplus 1c', 'Varela Round', Arial Rounded MT Bold, Arial, sans-serif" font-weight="800" font-size="100" fill="#1B2A4A" letter-spacing="-1">
+      <tspan>Voyage</tspan>
+    </text>
+  </g>
+  <g transform="translate(710, 178)">
+    <!-- "Rent" in red -->
+    <text font-family="'Nunito', 'Rounded Mplus 1c', 'Varela Round', Arial Rounded MT Bold, Arial, sans-serif" font-weight="800" font-size="100" fill="#C8102E" letter-spacing="-1">
+      <tspan>Rent</tspan>
+    </text>
+  </g>
+
+  <!-- Subtext under Voyage Rent -->
+  <text font-family="'Nunito', 'Rounded Mplus 1c', 'Varela Round', Arial Rounded MT Bold, Arial, sans-serif" font-weight="600" font-size="26" fill="#1B2A4A" x="715" y="228" letter-spacing="2" opacity="0.7">CAR RENTAL</text>
+</svg>
