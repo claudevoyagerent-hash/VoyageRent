@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MOCKUP: Black T-Shirt — Chest print -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="t_trans" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C8102E" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#F47920" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="#F0F0F0"/>
+
+  <!-- T-shirt shape -->
+  <!-- Body -->
+  <path d="M200,200 L200,850 Q200,900 250,900 L550,900 Q600,900 600,850 L600,200" fill="#1A1A1E"/>
+  <!-- Left sleeve -->
+  <path d="M200,200 L80,280 L80,400 Q80,420 100,420 L200,380 Z" fill="#1A1A1E"/>
+  <!-- Right sleeve -->
+  <path d="M600,200 L720,280 L720,400 Q720,420 700,420 L600,380 Z" fill="#1A1A1E"/>
+  <!-- Neckline -->
+  <path d="M200,200 Q300,160 400,170 Q500,160 600,200" fill="#1A1A1E" stroke="#222" stroke-width="2"/>
+  <!-- Collar -->
+  <path d="M310,185 Q400,155 490,185 Q400,175 310,185 Z" fill="#222"/>
+
+  <!-- ====== CHEST LOGO ====== -->
+  <g transform="translate(218, 320)">
+    <!-- Surprice text -->
+    <text font-family="'Nunito', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="42" fill="#C8102E" x="0" y="0" letter-spacing="-1">Sur</text>
+    <text font-family="'Nunito', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="42" fill="#FFFFFF" x="60" y="0" letter-spacing="-1">price</text>
+
+    <!-- Separator -->
+    <rect x="222" y="-30" width="1.5" height="48" rx="0.75" fill="url(#t_trans)"/>
+
+    <!-- VOYAGE -->
+    <text font-family="'Nunito', 'Montserrat', sans-serif" font-weight="900" font-size="42" fill="#F47920" x="238" y="0" letter-spacing="1">VOYAGE</text>
+
+    <!-- Bottom text -->
+    <text font-family="'Nunito', sans-serif" font-weight="500" font-size="10" fill="rgba(255,255,255,0.35)" x="0" y="28" letter-spacing="2">EMPOWERING MOBILITY</text>
+    <text font-family="'Nunito', sans-serif" font-weight="500" font-size="10" fill="rgba(255,255,255,0.35)" x="238" y="28" letter-spacing="2">CAR RENTAL</text>
+  </g>
+
+  <!-- Fabric texture overlay (subtle) -->
+  <rect x="80" y="160" width="640" height="770" fill="none" opacity="0.02"/>
+
+  <!-- Label -->
+  <rect x="20" y="945" width="280" height="35" rx="4" fill="rgba(0,0,0,0.7)"/>
+  <text font-family="'Nunito', sans-serif" font-weight="600" font-size="14" fill="white" x="35" y="968" letter-spacing="1">MOCKUP: BLACK T-SHIRT (CHEST)</text>
+</svg>

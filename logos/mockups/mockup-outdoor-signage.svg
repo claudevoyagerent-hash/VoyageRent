@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MOCKUP: Outdoor Signage — Building fascia above rental office -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" width="1400" height="900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#B0D4E8"/>
+    </linearGradient>
+    <linearGradient id="m_flame" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#E8312A"/>
+      <stop offset="60%" stop-color="#C8102E"/>
+      <stop offset="100%" stop-color="#8B1A1A"/>
+    </linearGradient>
+    <linearGradient id="m_navy" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1F3460"/>
+      <stop offset="100%" stop-color="#12213D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="1400" height="900" fill="url(#sky)"/>
+
+  <!-- Building wall -->
+  <rect x="50" y="250" width="1300" height="650" fill="#E8E4E0" rx="3"/>
+  <!-- Wall texture lines -->
+  <line x1="50" y1="450" x2="1350" y2="450" stroke="rgba(0,0,0,0.03)" stroke-width="1"/>
+  <line x1="50" y1="550" x2="1350" y2="550" stroke="rgba(0,0,0,0.03)" stroke-width="1"/>
+  <line x1="50" y1="650" x2="1350" y2="650" stroke="rgba(0,0,0,0.03)" stroke-width="1"/>
+
+  <!-- ====== SIGNAGE PANEL ====== -->
+  <rect x="100" y="270" width="1200" height="150" rx="5" fill="#0C0C0F"/>
+  <!-- Subtle LED glow under panel -->
+  <rect x="100" y="418" width="1200" height="8" rx="2" fill="rgba(244,121,32,0.08)"/>
+
+  <!-- Logo on signage (scaled version of Variant A) -->
+  <!-- Surprice icon mini -->
+  <g transform="translate(130, 290) scale(0.22)">
+    <path d="M195,15 C225,5 268,0 292,28 C316,56 298,95 260,118 C238,132 205,140 183,155 C165,167 158,180 165,192 L125,168 C112,142 130,118 160,98 C190,78 222,64 242,48 C262,32 255,14 232,12 Z" fill="url(#m_flame)"/>
+    <path d="M165,192 C142,210 108,232 80,260 C52,288 58,322 86,340 C114,358 158,352 198,335 C238,318 266,290 278,268 C290,246 278,228 256,222 L268,200 C300,210 318,235 306,266 C294,298 262,330 218,352 C174,374 120,380 76,358 C32,336 20,296 48,262 C76,228 118,205 150,186 Z" fill="url(#m_navy)"/>
+  </g>
+
+  <!-- Surprice text on sign -->
+  <text font-family="'Nunito', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="62" fill="#C8102E" x="218" y="370" letter-spacing="-1">Sur</text>
+  <text font-family="'Nunito', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="62" fill="#FFFFFF" x="290" y="370" letter-spacing="-1">price</text>
+  <text font-family="'Nunito', sans-serif" font-weight="600" font-size="14" fill="rgba(255,255,255,0.5)" x="220" y="395" letter-spacing="1.5">Empowering mobility</text>
+
+  <!-- Divider on sign -->
+  <line x1="560" y1="300" x2="560" y2="400" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+  <!-- VOYAGE on sign -->
+  <text font-family="'Nunito', 'Montserrat', sans-serif" font-weight="900" font-size="58" fill="#F47920" x="590" y="365" letter-spacing="2">VOYAGE</text>
+  <text font-family="'Nunito', 'Montserrat', sans-serif" font-weight="700" font-size="18" fill="rgba(255,255,255,0.5)" x="593" y="390" letter-spacing="4">RENT</text>
+
+  <!-- ====== OFFICE ELEMENTS ====== -->
+  <!-- Glass door -->
+  <rect x="550" y="500" width="300" height="400" rx="3" fill="rgba(135,206,235,0.3)" stroke="#AAA" stroke-width="2"/>
+  <!-- Door handle -->
+  <rect x="830" y="680" width="8" height="40" rx="4" fill="#888"/>
+  <!-- Window left -->
+  <rect x="150" y="500" width="350" height="250" rx="3" fill="rgba(135,206,235,0.25)" stroke="#AAA" stroke-width="2"/>
+  <!-- Window right -->
+  <rect x="900" y="500" width="350" height="250" rx="3" fill="rgba(135,206,235,0.25)" stroke="#AAA" stroke-width="2"/>
+
+  <!-- Office name on glass -->
+  <text font-family="'Nunito', sans-serif" font-weight="700" font-size="20" fill="rgba(12,12,15,0.4)" x="700" y="660" text-anchor="middle">SURPRICE × VOYAGE RENT</text>
+  <text font-family="'Nunito', sans-serif" font-weight="500" font-size="14" fill="rgba(12,12,15,0.3)" x="700" y="685" text-anchor="middle">CAR RENTAL</text>
+
+  <!-- Label -->
+  <rect x="50" y="850" width="300" height="35" rx="4" fill="rgba(0,0,0,0.6)"/>
+  <text font-family="'Nunito', sans-serif" font-weight="600" font-size="14" fill="white" x="65" y="873" letter-spacing="1">MOCKUP: OUTDOOR SIGNAGE</text>
+</svg>
